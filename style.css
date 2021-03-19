@@ -22,6 +22,7 @@ body{
     position: absolute;
     top: 25%;
     left: 49.7%;
+    z-index: 3;
     transform-origin: bottom;
 }
 .minute{
@@ -32,6 +33,7 @@ body{
     top: 21%;
     left: 49.7%;
     transform-origin: bottom;
+    z-index: 2;
 }
 .second{
     height: 33%;
@@ -40,5 +42,6 @@ body{
     position: absolute;
     top: 17%;
     left: 49.7%;
+    z-index: 1;
     transform-origin: bottom;
 }
