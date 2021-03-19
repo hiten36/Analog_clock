@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(224, 205, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background: url('bg.png') no-repeat center center/cover;
+    height: 91vmin;
+    margin-top: 4vmin;
+    width: 91vmin;
+    position: relative;
+}
+.hour{
+    height: 25%;
+    width: 0.6%;
+    background-color: red;
+    position: absolute;
+    top: 25%;
+    left: 49.7%;
+    transform-origin: bottom;
+}
+.minute{
+    height: 29%;
+    width: 0.6%;
+    background-color: blue;
+    position: absolute;
+    top: 21%;
+    left: 49.7%;
+    transform-origin: bottom;
+}
+.second{
+    height: 33%;
+    width: 0.6%;
+    background-color: black;
+    position: absolute;
+    top: 17%;
+    left: 49.7%;
+    transform-origin: bottom;
+}
